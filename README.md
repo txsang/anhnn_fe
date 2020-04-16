@@ -1,6 +1,6 @@
 # HTML Boilerplate
 
-HTML5 Boilerplate is a frontend template include HTML, CSS, JS for building fast sites.
+HTML5 Boilerplate is a frontend template include HTML, CSS, JS for building fast sites. text A.
 
 ## Getting started
 
