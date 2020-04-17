@@ -1,0 +1,69 @@
+.download {
+	background-color: #000000;
+	color: #ffffff;
+	width: 100%;
+	padding: 10px 0;	
+}
+.download p {
+	font-size: 50px;
+	margin: 10px 0;
+}
+.download a {
+	border: 1px solid #000000;
+	background-color: #4bcaff;
+	padding: 20px 0;
+	display: block;
+	width: 200px;
+	margin: 20px auto;
+}
+.contact {
+	background-image: url("images/map.png");
+	height: 680px;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+.form {
+	margin: 50px auto;
+	border-radius: 5px;
+	background-color: #4bcaff;
+	padding: 30px;
+	width: 340px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 40px;
+	}
+textarea {
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	width: 100%;
+	height: 150px;
+	resize: none;
+	text-align: center;
+	font-family: Arial;
+}
+input[type=text] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	text-align: center;
+}
+input[type=submit] {
+	width: 200px;
+	background-color: #000000;
+	color: #ffffff;
+	padding: 15px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+}
+input[type=submit]:hover {
+	background-color: #000000;
+}
