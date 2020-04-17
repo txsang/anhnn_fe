@@ -1,0 +1,96 @@
+.price {
+	overflow: auto;
+}
+.price-1 {
+	height: 390px;
+	width: 300px;
+	border: 1px solid #000000;
+	float: left;
+	margin-left: 70px;
+	margin-top: 52px;
+	border-radius: 8px;
+}
+.price-1 p {
+	font-size: 80px;
+	background-color: #91c46b;
+	color:white;
+}
+.price-1 a {
+	font-size: 20px;
+	background-color: #91c46b;   
+	padding: 15px 30px;
+	color: white;
+	margin: 10px 0;
+}
+.price-1 ul li {
+	margin: 30px 0;
+}
+.price-2 p {
+	font-size: 80px;
+	background-color: #4bcaff;
+	color: white;
+}
+.price-2 a {
+	font-size: 20px;
+	background-color: #4bcaff;
+	padding: 15px 30px;
+	color: white;
+}
+.price-2 ul li {
+	margin: 30px 0;
+}
+.price-3 p {
+	font-size: 80px;
+	background-color: #fd7c00;
+	color: white;
+}
+.price-3 a {
+	font-size: 20px;
+	background-color: #fd7c00;
+	padding: 15px 30px;
+	color: white;
+}
+.price-3 ul li {
+	margin: 30px 0;
+}
+.price-2 {
+	width: 370px;
+	height: 440px;
+	border: 1px solid #000000;
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+	border-radius: 8px;
+}
+.price-3 {
+	height: 390px;
+	width: 300px;
+	border: 1px solid #000000;
+	float: left;
+	margin: 52px 0 0 30px;
+	border-radius: 8px;
+}
+.price-1 :hover, .price-1 h2 li {
+	color: #4bcaff;
+}
+.price-2 :hover, .price-2 h2 li{
+	color: #4bcaff;
+}
+.price-3 :hover, .price-3 h2 li{
+	color: #4bcaff;
+}
+.type {
+	list-style-type: none;
+}
+.testimo {
+	width: 50%;
+	margin: 20px 270px;
+}
+address {
+	text-align: right;
+}
+.wrap-content-test {
+	width: 370px;
+	float: right;
+	text-align: left;
+}
