@@ -1,0 +1,43 @@
+.header-container {
+  height: auto;
+  width: 100%;
+  background-color: #000000;
+  border-bottom: 1px solid #4bcaff;
+  overflow: auto;    
+} 
+
+.logo {
+  float: left;
+  margin-left: 4%;
+}
+.logo a{
+  margin-left: 5%;
+  padding: 22px 0;
+  display: inline-block;
+}
+.menu {
+  float: right;
+  overflow: auto;
+  width: 58%;
+}
+.menu ul{
+  margin: 0;
+  padding: 0;
+  }
+.menu ul li{
+  text-align: center;
+  display: inline;   
+  }
+.menu li a{
+  font-size: 13px;
+  color: white;
+  padding: 0;
+  display: inline-block;
+  padding: 40px 10px;
+}
+.menu ul li a:hover, 
+.menu ul li a:active {
+  color: #4bcaff;
+  font-size: 13px;
+  font-weight: bold;
+}
