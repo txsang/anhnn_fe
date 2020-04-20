@@ -1,5 +1,23 @@
 .price {
 	overflow: auto;
+	text-align: center;
+}
+.center {
+	width: 1170px;
+	margin: 0 auto;
+}
+.head-content {
+	text-align: center;
+	font-family: Lato;
+	margin-top: 70px;
+
+}
+.head-content h2 {
+	font-size: 36px;
+	font-weight: bold;
+}
+.head-content p {
+	font-size: 20px;
 }
 .price-1 {
 	height: 390px;
@@ -11,9 +29,12 @@
 	border-radius: 8px;
 }
 .price-1 p {
-	font-size: 80px;
+	font-size: 85px;
 	background-color: #91c46b;
 	color:white;
+}
+.price-1 h2 {
+	font-size: 22px;
 }
 .price-1 a {
 	font-size: 20px;
