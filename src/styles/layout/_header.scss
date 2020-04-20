@@ -28,7 +28,8 @@
   padding: 0;
   }
 .menu ul li{
-  text-align: center;
+  width: 900px;
+  justify-content: space-between;
   display: inline;   
   }
 .menu li a{
@@ -36,7 +37,7 @@
   color: white;
   display: inline-block;
   padding: 40px 10px;
-  float: right;
+  float: left;
 }
 .menu ul li a:hover, 
 .menu ul li a:active {
