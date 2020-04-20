@@ -1,0 +1,55 @@
+.slide {	
+	background-image: url("images/img-slide-02.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	border-bottom: 2px solid #4bcaff;
+	overflow: auto;
+}
+.right-content {
+	float: right;
+	width: 52%;
+	font-size: 1em;
+}
+span {
+	font-size: 3em;
+}
+.text-slide {
+	color: #ffffff;
+	text-align: left;
+	margin: 200px 0px 30px 0px;
+	padding-bottom: 30px;
+}
+.link-icon {
+	overflow: auto;
+}
+.link-icon p {
+	float: left;
+	color: #4bcaff;
+	line-height: 4em;
+	padding-right: 20px;
+}
+.link-icon a {
+	float: left;
+	margin: 0.5em;
+	border: 1px solid #4bcaff;
+	border-radius: 50%;	
+}
+.link {
+	overflow: auto;
+	font: bold 15px "Droid Sans";
+}
+.link :hover, .link :active {
+	background-color: #4bcaff;
+}
+.link-icon a :hover, .link-icon a:active {
+	background-color: #4bcaff;
+}
+.link a {
+	float: left;
+	padding-top: 50px;
+	text-decoration: none;
+	border: 1px solid 3ffffff;
+	padding: 20px;
+	margin: 0 40px 20px 0;
+	color: #ffffff;
+}
