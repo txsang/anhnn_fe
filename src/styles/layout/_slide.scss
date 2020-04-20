@@ -1,42 +1,50 @@
 .slide {	
-	background-image: url("images/img-slide-02.png");
+	background-image: url("../images/img-slide-01.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	border-bottom: 2px solid #4bcaff;
 	overflow: auto;
 }
+.center {
+	width: 1170px;
+	margin: 0 auto;
+}
 .right-content {
 	float: right;
-	width: 52%;
-	font-size: 1em;
-}
-span {
-	font-size: 3em;
+	width: 55%;
 }
 .text-slide {
 	color: #ffffff;
 	text-align: left;
 	margin: 200px 0px 30px 0px;
-	padding-bottom: 30px;
+	padding-bottom: 10px;
+	font-size: 18px;
+	font-family: Lato;
+}
+.text-slide div {
+	font-size: 48px;
 }
 .link-icon {
 	overflow: auto;
 }
 .link-icon p {
+	font-size: 18px;
+	font-family: Lato;
 	float: left;
 	color: #4bcaff;
-	line-height: 4em;
+	line-height: 3em;
 	padding-right: 20px;
 }
 .link-icon a {
 	float: left;
-	margin: 0.5em;
+	margin-left: 20px;
 	border: 1px solid #4bcaff;
 	border-radius: 50%;	
+	margin-bottom: 115px;
 }
 .link {
 	overflow: auto;
-	font: bold 15px "Droid Sans";
+	font: bold 15px "Lato";
 }
 .link :hover, .link :active {
 	background-color: #4bcaff;
@@ -46,10 +54,9 @@ span {
 }
 .link a {
 	float: left;
-	padding-top: 50px;
-	text-decoration: none;
-	border: 1px solid 3ffffff;
-	padding: 20px;
-	margin: 0 40px 20px 0;
+	border: 1px solid #ffffff;
+	border-radius: 5px;
+	padding: 20px 40px;
+	margin: 0 40px 50px 0;
 	color: #ffffff;
 }
