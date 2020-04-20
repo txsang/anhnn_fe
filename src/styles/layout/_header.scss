@@ -5,7 +5,10 @@
   border-bottom: 1px solid #4bcaff;
   overflow: auto;    
 } 
-
+.center {
+  width: 1170px;
+  margin: 0 auto;
+}
 .logo {
   float: left;
   margin-left: 4%;
@@ -18,7 +21,7 @@
 .menu {
   float: right;
   overflow: auto;
-  width: 58%;
+  width: 60%;
 }
 .menu ul{
   margin: 0;
@@ -31,9 +34,9 @@
 .menu li a{
   font-size: 13px;
   color: white;
-  padding: 0;
   display: inline-block;
   padding: 40px 10px;
+  float: right;
 }
 .menu ul li a:hover, 
 .menu ul li a:active {
