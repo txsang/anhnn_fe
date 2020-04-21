@@ -2,12 +2,8 @@
 	margin: 0 auto;
 	width: 1170px;
 }
-
 .gallery {
 	overflow: auto;
-}
-h2 {
-	font-size: 36px;
 }
 .screen {
 	margin-top: 10px;
@@ -15,6 +11,9 @@ h2 {
 .head-content {
 	text-align: center;
 	font: 20px Lato;
+	h2 {
+	font-size: 36px;
+	}
 }
 .wrap-content-gallery {
 	text-align: center;
@@ -28,7 +27,7 @@ h2 {
 .last-content {
 	margin-right:0
 }
-.b {
+.pseudu {
 	width: 270px;
 	height: 200px;
 	display: none;
@@ -41,11 +40,7 @@ h2 {
 	background-image: url("../images/icon-09.png");
 	background-position: center;
 	background-repeat: no-repeat;
-}
-.wrap-content-gallery:hover .b {
-	display: block;
-}
-.b a {
+	a {
 	color: #4bcaff;
 	background-color: #000000;
 	padding: 10px;
@@ -55,4 +50,8 @@ h2 {
 	width: 270px;
 	left: 0px;
 	bottom: 0px;
+	}
+}
+.wrap-content-gallery:hover .pseudu {
+	display: block;
 }
