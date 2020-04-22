@@ -10,10 +10,11 @@
 }
 .head-content {
 	text-align: center;
-	font: 20px Lato;
-	h2 {
-	font-size: 36px;
-	}
+	font-size: 20px;
+	font-family: Lato;
+		.header-h2 {
+		font-size: 36px;
+		}
 }
 .wrap-content-gallery {
 	text-align: center;
@@ -23,9 +24,10 @@
 	margin-right: 30px;
 	position: relative;
 	font-size: 13px;
+	margin-bottom: 20px;
 }
 .last-content {
-	margin-right:0
+	margin-right: 0;
 }
 .pseudu {
 	width: 270px;
@@ -40,17 +42,17 @@
 	background-image: url("../images/icon-09.png");
 	background-position: center;
 	background-repeat: no-repeat;
-	a {
-	color: #4bcaff;
-	background-color: #000000;
-	padding: 10px;
-	border-radius: 0 0px 10px 10px;	
-	opacity: 0.5;
-	position: absolute;
-	width: 270px;
-	left: 0px;
-	bottom: 0px;
-	}
+		.content-pseudu {
+		color: #4bcaff;
+		background-color: #000000;
+		padding: 10px;
+		border-radius: 0 0px 10px 10px;	
+		opacity: 0.5;
+		position: absolute;
+		width: 270px;
+		left: 0px;
+		bottom: 0px;
+		}
 }
 .wrap-content-gallery:hover .pseudu {
 	display: block;
