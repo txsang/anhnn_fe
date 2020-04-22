@@ -1,29 +1,12 @@
-<div class="bg-video">	
-	<div class="content-video">
-		<div class="g">
-			<div>
-				<a class="video" title="Test title" href="https://www.youtube.com/watch?v=9VNf7_FvXQI"><img src="images/video-button.png" alt="play video" ></a>
-			</div>
-		
-			<p><span>Watch the best Technology in Action</span></p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitar tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.</p>
-		</div>
-	</div>
+<div class="bg-video">
+  <div class="content-video">
+    <div class="g">
+      <div>
+        <a class="video" title="Test title" href="https://www.youtube.com/watch?v=9VNf7_FvXQI"><img src="images/video-button.png" alt="play video" ></a>
+      </div>
+
+      <p><span>Watch the best Technology in Action</span></p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitar tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.</p>
+    </div>
+  </div>
 </div>
-<script type="text/javascript">
-	$('.video').magnificPopup({
-  type: 'iframe',
-  iframe: {
-     markup: '<div class="mfp-iframe-scaler">'+
-                '<div class="mfp-close"></div>'+
-                '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
-                '<div class="mfp-title">Some caption</div>'+
-              '</div>'
-  },
-  callbacks: {
-    markupParse: function(template, values, item) {
-     values.title = item.el.attr('title');
-    }
-  }
-});
-</script>
