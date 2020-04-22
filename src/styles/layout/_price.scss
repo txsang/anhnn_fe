@@ -1,141 +1,141 @@
 .price {
-	overflow: auto;
-	text-align: center;
-	height: 700px;
+  overflow: auto;
+  text-align: center;
+  height: 700px;
 }
 .center {
-	width: 1170px;
-	margin: 0 auto;
+  width: 1170px;
+  margin: 0 auto;
 }
 .head-content {
-	text-align: center;
-	font-family: Lato;
-	margin-top: 70px;
-	h2 {
-	font-size: 36px;
-	font-weight: bold;
-	}
-	p {
-	font-size: 20px;
-	}
+  text-align: center;
+  font-family: Lato;
+  margin-top: 70px;
+    .head-h2 {
+    font-size: 36px;
+    font-weight: bold;
+    }
+    .head-p {
+    font-size: 20px;
+    }
 }
-	.price-1 {
-	&:hover, &:active, .price-1 h2 li {
-	color: #4bcaff;
-	}
-	height: 415px;
-	width: 300px;
-	border: 1px solid #000000;
-	float: left;
-	margin-left: 70px;
-	margin-top: 52px;
-	border-radius: 8px;
-	p {
-	font-size: 85px;
-	background-color: #91c46b;
-	color:white;
-	}
-	h2 {
-	font-size: 17px;
-	font-weight: bold;
-	margin: 25px 0;
-	}
-	a {
-	font-size: 15px;
-	background-color: #91c46b;   
-	padding: 15px 30px;
-	color: white;
-	margin: 10px 0;
-	font-family: Lato;
-	}
-	ul li {
-	margin: 20px 0;
-	font-size: 18px;
-	font-family: Lato;
-	}
+  .price-1 {
+  &:hover, &:active, .price-1 h2 li {
+  color: #4bcaff;
+  }
+  height: 415px;
+  width: 300px;
+  border: 1px solid #000000;
+  float: left;
+  margin-left: 70px;
+  margin-top: 52px;
+  border-radius: 8px;
+    .price1-p {
+    font-size: 85px;
+    background-color: #91c46b;
+    color:white;
+    }
+    .price1-h2 {
+    font-size: 17px;
+    font-weight: bold;
+    margin: 25px 0;
+    }
+    .price1-a {
+    font-size: 15px;
+    background-color: #91c46b;
+    padding: 15px 30px;
+    color: white;
+    margin: 10px 0;
+    font-family: Lato;
+    }
+    .type li {
+    margin: 20px 0;
+    font-size: 18px;
+    font-family: Lato;
+    }
 }
 .price-2 {
-	&:hover, &:active, .price-2 h2 li{
-	color: #4bcaff;
-	}
-	width: 370px;
-	height: 455px;
-	border: 1px solid #000000;
-	float: left;
-	margin-left: 30px;
-	margin-top: 30px;
-	border-radius: 8px;
-	h2 {
-	font-size: 22px;
-	font-weight: bold;
-	margin: 25px 0;
-	}
-	p {
-	font-size: 80px;
-	background-color: #4bcaff;
-	color: white;
-	}
-	a {
-	font-size: 20px;
-	background-color: #4bcaff;
-	padding: 15px 30px;
-	color: white;
-	}
-	ul li {
-	margin: 20px 0;
-	}
-}	
+  &:hover, &:active, .price-2 h2 li{
+  color: #4bcaff;
+  }
+  width: 370px;
+  height: 455px;
+  border: 1px solid #000000;
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+  border-radius: 8px;
+    .price2-h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 25px 0;
+    }
+    .price2-p {
+    font-size: 80px;
+    background-color: #4bcaff;
+    color: white;
+    }
+    .price2-a {
+    font-size: 20px;
+    background-color: #4bcaff;
+    padding: 15px 30px;
+    color: white;
+    }
+    .type li {
+    margin: 20px 0;
+    }
+}
 .price-3 {
-	&:hover, &:active, .price-3 h2 li{
-	color: #4bcaff;
-	}
-	height: 415px;
-	width: 300px;
-	border: 1px solid #000000;
-	float: left;
-	margin: 52px 0 0 30px;
-	border-radius: 8px;
-	h2 {
-	font-size: 17px;
-	font-weight: bold;
-	margin: 25px 0;
-	}
-	p {
-	font-size: 80px;
-	background-color: #fd7c00;
-	color: white;
-	}
-	a {
-	font-size: 20px;
-	background-color: #fd7c00;
-	padding: 15px 30px;
-	color: white;
-	}
-	ul li {
-	margin: 20px 0;
-	}
+  &:hover, &:active, .price-3 h2 li{
+  color: #4bcaff;
+  }
+  height: 415px;
+  width: 300px;
+  border: 1px solid #000000;
+  float: left;
+  margin: 52px 0 0 30px;
+  border-radius: 8px;
+    .price3-h2 {
+    font-size: 17px;
+    font-weight: bold;
+    margin: 25px 0;
+    }
+    .price3-p {
+    font-size: 80px;
+    background-color: #fd7c00;
+    color: white;
+    }
+    .price3-a {
+    font-size: 20px;
+    background-color: #fd7c00;
+    padding: 15px 30px;
+    color: white;
+    }
+    .type li {
+    margin: 20px 0;
+    }
 }
 .type {
-	list-style-type: none;
+  list-style-type: none;
 }
 .testimo {
-	width: 47%;
-	margin: 20px 280px;
-	address {
-	text-align: right;
-	margin-bottom: 35px;
-	}
-	h2 {
-	font-size: 36px;
-	margin-bottom: 35px;
-	font-weight: bold;
-	}
+  width: 47%;
+  margin: 20px 280px;
+    .addr {
+    text-align: right;
+    margin-bottom: 35px;
+    }
+    .test-h2 {
+    font-size: 36px;
+    margin-bottom: 35px;
+    font-weight: bold;
+    }
 }
 .wrap-content-test {
-	&:hover, &:active {
-		color: #4bcaff;
-	}
-	width: 370px;
-	float: right;
-	text-align: left;
+  &:hover, &:active {
+    color: #4bcaff;
+  }
+  width: 370px;
+  float: right;
+  text-align: left;
 }
