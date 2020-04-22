@@ -3,24 +3,31 @@
 	color: #ffffff;
 	width: 100%;
 	padding: 10px 0;	
-}
-.download p {
-	font-size: 50px;
+	text-align: center;
+	font-family: Lato;
+	font-weight: bold;
+	p {
+	font-size: 55px;
 	margin: 10px 0;
-}
-.download a {
+	}
+	a {
 	border: 1px solid #000000;
 	background-color: #4bcaff;
 	padding: 20px 0;
 	display: block;
 	width: 200px;
 	margin: 20px auto;
-}
+	font-size: 15px;
+	border-radius: 10px;
+	}
+} 
 .contact {
-	background-image: url("images/map.png");
-	height: 680px;
+	background-image: url("../images/map.jpg");
+	background-position: center;
 	background-repeat: no-repeat;
+	height: 680px;
 	width: 100%;
+	border: 1px solid black;
 }
 .form {
 	margin: 50px auto;
@@ -30,11 +37,33 @@
 	width: 340px;
 	text-align: center;
 	color: #ffffff;
-	font-size: 40px;
+	
+label {
+		font-size: 36px;
 	}
-textarea {
+	input[type=text] {
+	width: 100%;
 	padding: 12px 20px;
 	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 14px;
+	}
+	input[type=submit] {
+	width: 200px;
+	background-color: #000000;
+	color: #ffffff;
+	padding: 15px 20px;
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	font-weight: bold;
+	}
+	textarea {
+	padding: 12px 20px;
 	display: inline-block;
 	border: 1px solid #ccc;
 	border-radius: 4px;
@@ -44,26 +73,6 @@ textarea {
 	resize: none;
 	text-align: center;
 	font-family: Arial;
-}
-input[type=text] {
-	width: 100%;
-	padding: 12px 20px;
-	margin: 8px 0;
-	display: inline-block;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	box-sizing: border-box;
-	text-align: center;
-}
-input[type=submit] {
-	width: 200px;
-	background-color: #000000;
-	color: #ffffff;
-	padding: 15px 20px;
-	margin: 8px 0;
-	border: none;
-	border-radius: 4px;
-}
-input[type=submit]:hover {
-	background-color: #000000;
+	font-size: 14px;
+	}
 }

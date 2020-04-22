@@ -28,51 +28,29 @@
 <!-- endbuild -->
 </head>
 <body>
-  <div class="wrapper">
-    <!-- include header.html -->
-    <header class="header-container">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <p>Header Container</p>
-      </div>
-    </div>
-  </div>
-</header>
 
-    <!-- include banner.html -->
-    <section class="banner-container">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <p class="title-block">Banner</p>
-      </div>
-    </div>
+    <!-- include download.html -->
+    <div class="download">
+  <p>Do you Like this app?</p>
+  <nav>
+  	<a href="#" >DOWNLOAD NOW</a>
+	</nav>
+</div>
+<div class="contact">
+  <div class="form">
+    <form action="/action_page.php">
+    <label>Contact<label>
+    <input type="text" id="fname" name="yourname" placeholder="Your name">
+    <input type="text" id="lname" name="email" placeholder="Your email">
+    <input type="text" id="lname" name="subject" placeholder="Subject">
+    <textarea type="text" name="Messager" placeholder="Messager"></textarea>
+    <input type="submit" value="Send">
+    </form>
   </div>
-</section>
+</div>
 
-    <main class="main-container">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h4 class="title-block">HTML Boilerplate</h4>
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <!-- include footer.html -->
-    <footer class="footer-container">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <p>Footer Container</p>
-      </div>
-    </div>
-  </div>
-</footer>
-  </div>
-
+  
+  
   <!-- include scripts.html -->
   <!-- build:js(.) script/vendor.min.js -->
 <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
