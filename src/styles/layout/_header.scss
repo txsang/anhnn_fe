@@ -3,45 +3,40 @@
   width: 100%;
   background-color: #000000;
   border-bottom: 1px solid #4bcaff;
-  overflow: auto;    
-} 
+  overflow: auto;
+}
 .center {
   width: 1170px;
   margin: 0 auto;
 }
-.logo {
-  float: left;
-  margin-left: 4%;
-}
-.logo a{
+.logo-a{
   margin-left: 5%;
   padding: 22px 0;
   display: inline-block;
+  float: left;
+  margin-left: 4%;
 }
 .menu {
   float: right;
   overflow: auto;
   width: 60%;
+    .menu-a {
+      &:hover, &:active {
+        color: #4bcaff;
+        font-size: 13px;
+        font-weight: bold;
+      }
+    font-size: 13px;
+    color: white;
+    display: inline-block;
+    padding: 40px 10px;
+    float: left;
+    text-transform: uppercase;
+      li{
+      width: 900px;
+      justify-content: space-between;
+      display: inline;
+      }
+    }
 }
-.menu ul{
-  margin: 0;
-  padding: 0;
-  }
-.menu ul li{
-  width: 900px;
-  justify-content: space-between;
-  display: inline;   
-  }
-.menu li a{
-  font-size: 13px;
-  color: white;
-  display: inline-block;
-  padding: 40px 10px;
-  float: left;
-}
-.menu ul li a:hover, 
-.menu ul li a:active {
-  color: #4bcaff;
-  font-size: 13px;
-  font-weight: bold;
-}
+
