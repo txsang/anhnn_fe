@@ -1,63 +1,68 @@
-.slide {	
-	background-image: url("../images/img-slide-01.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	border-bottom: 2px solid #4bcaff;
-	overflow: auto;
+.single-item {
+  background-image: url("../images/img-slide-01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom: 2px solid #4bcaff;
+  overflow: auto;
 }
 .center {
-	width: 1170px;
-	margin: 0 auto;
+  width: 1170px;
+  margin: 0 auto;
 }
 .right-content {
-	float: right;
-	width: 55%;
+  float: right;
+  width: 55%;
 }
 .text-slide {
-	color: #ffffff;
-	text-align: left;
-	margin: 200px 0px 30px 0px;
-	padding-bottom: 10px;
-	font-size: 18px;
-	font-family: Lato;
-	h2 {
-	font-size: 48px;
-	}
+  width: 630px;
+  float: right;
+  color: #ffffff;
+  text-align: left;
+  margin: 0px 0px 30px 0px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-family: Lato;
+    .text-slide-h2 {
+    font-size: 48px;
+    }
 }
-
 .link-icon {
-	overflow: auto;
-	p {
-	font-size: 18px;
-	font-family: Lato;
-	float: left;
-	color: #4bcaff;
-	line-height: 3em;
-	padding-right: 20px;
-	}
-	a {
-	float: left;
-	margin-left: 20px;
-	border: 1px solid #4bcaff;
-	border-radius: 50%;	
-	margin-bottom: 115px;
-	}
-	a:hover, a:active {
-		background-color: #4bcaff;
-	}
+  overflow: auto;
+  width: 630px;
+  float: right;
+    .link-icon-a:hover, .link-icon-a:active {
+      background-color: #4bcaff;
+    }
+    .link-icon-p {
+    font-size: 18px;
+    font-family: Lato;
+    float: left;
+    color: #4bcaff;
+    line-height: 3em;
+    padding-right: 20px;
+    }
+    .link-icon-a {
+    float: left;
+    margin-left: 20px;
+    border: 1px solid #4bcaff;
+    border-radius: 50%;
+    margin-bottom: 115px;
+    }
 }
 .link {
-	overflow: auto;
-	font: bold 15px "Lato";
-	:hover ,:active{
-		background-color: #4bcaff;
-	}
-	a {
-	float: left;
-	border: 1px solid #ffffff;
-	border-radius: 5px;
-	padding: 20px 40px;
-	margin: 0 40px 50px 0;
-	color: #ffffff;
-	}
+  width: 630px;
+  float: right;
+  overflow: auto;
+  font: bold 15px "Lato";
+  :hover ,:active{
+    background-color: #4bcaff;
+  }
+    .link-a {
+    float: left;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 20px 40px;
+    margin: 0 40px 50px 0;
+    color: #ffffff;
+    }
 }
