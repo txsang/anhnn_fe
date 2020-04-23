@@ -17,6 +17,9 @@
   }
 }
 .wrap-content-gallery {
+  &:hover .pseudu {
+    display: block;
+  }
   text-align: center;
   width: 270px;
   float: left;
@@ -34,10 +37,10 @@
   height: 200px;
   display: none;
   position: absolute;
-  left: 0px;
-  top: 0px;
-  font-size: 1.25rem;
-  color: $white-color;
+  left: 0;
+  top: 0;
+  font-size: 15px;
+  color: #ffffff;
   text-align: center;
   background-image: url("../images/icon-09.png");
   background-position: center;
@@ -46,14 +49,11 @@
     color: #4bcaff;
     background-color: #000000;
     padding: 10px;
-    border-radius: 0 0px 10px 10px;
+    border-radius: 0 0 10px 10px;
     opacity: 0.5;
     position: absolute;
     width: 270px;
-    left: 0px;
-    bottom: 0px;
+    left: 0;
+    bottom: 0;
   }
-}
-.wrap-content-gallery:hover .pseudu {
-  display: block;
 }
