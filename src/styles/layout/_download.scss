@@ -22,18 +22,10 @@
   }
 }
 .contact {
-  /*background-image: url("../images/map.jpg");
-  background-position: center;
-  background-repeat: no-repeat;*/
   height: 680px;
   width: 100%;
   border: 1px solid black;
   position: relative;
-  .maps {
-    width: 100%;
-    height: 675px;
-    opacity:0.5;
-  }
   .form {
     margin: 50px auto;
     border-radius: 5px;
@@ -45,10 +37,10 @@
     position: absolute;
     top: 0;
     left: 39%;
-      label {
-        font-size: 36px;
-        }
-      input[type=text] {
+    .label-text {
+      font-size: 36px;
+    }
+    .input-text {
       width: 100%;
       padding: 12px 20px;
       margin: 8px 0;
@@ -58,8 +50,8 @@
       box-sizing: border-box;
       text-align: center;
       font-size: 14px;
-      }
-      input[type=submit] {
+    }
+    .btn-submit {
       width: 200px;
       background-color: #000000;
       color: #ffffff;
@@ -68,8 +60,8 @@
       border-radius: 4px;
       font-size: 15px;
       font-weight: bold;
-      }
-      textarea {
+    }
+    .input-area {
       padding: 12px 20px;
       display: inline-block;
       border: 1px solid #ccc;
@@ -81,6 +73,6 @@
       text-align: center;
       font-family: Arial;
       font-size: 14px;
-      }
+    }
   }
 }
