@@ -5,46 +5,34 @@
       <p>summarise what your product is all about</p>
     </div>
     <div class="screen">
-      <div class="wrap-content-gallery">
-        @@loop("gallery.html", [
-          {
+      @@loop("gallery.html", [
+        {
+          "class": "wrap-content-gallery",
           "title": "SCRENN SHOT #1",
           "image": "images/image-gallery.jpg",
           "description": "Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa it porta nequetiam elerisque mi id faucibus iaculis vitae pulvinar",
           "alt": "gallery 1"
-          }
-          ])
-      </div>
-      <div class="wrap-content-gallery">
-        @@loop("gallery.html", [
-        {
-        "title": "SCRENN SHOT #2",
-        "image": "images/image-gallery.jpg",
-        "description": "Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa it porta nequetiam elerisque mi id faucibus iaculis vitae pulvinar",
-        "alt": "gallery 1"
+        },{
+          "class": "wrap-content-gallery",
+          "title": "SCRENN SHOT #2",
+          "image": "images/image-gallery.jpg",
+          "description": "Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa it porta nequetiam elerisque mi id faucibus iaculis vitae pulvinar",
+          "alt": "gallery 1"
+        },{
+          "class": "wrap-content-gallery",
+          "title": "SCRENN SHOT #3",
+          "image": "images/image-gallery.jpg",
+          "description": "Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa it porta nequetiam elerisque mi id faucibus iaculis vitae pulvinar",
+          "alt": "gallery 1"
+        },{
+         "class": "wrap-content-gallery last-content",
+          "title": "SCRENN SHOT #3",
+          "image": "images/image-gallery.jpg",
+          "description": "Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa it porta nequetiam elerisque mi id faucibus iaculis vitae pulvinar",
+          "alt": "gallery 1",
+          "tag": "<p>mycontent</p>"
         }
-        ])
-      </div>
-      <div class="wrap-content-gallery">
-        @@loop("gallery.html", [
-        {
-        "title": "SCRENN SHOT #3",
-        "image": "images/image-gallery.jpg",
-        "description": "Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa it porta nequetiam elerisque mi id faucibus iaculis vitae pulvinar",
-        "alt": "gallery 1"
-        }
-        ])
-      </div>
-      <div class="wrap-content-gallery last-content">
-        @@loop("gallery.html", [
-        {
-        "title": "SCRENN SHOT #4",
-        "image": "images/image-gallery.jpg",
-        "description": "Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa it porta nequetiam elerisque mi id faucibus iaculis vitae pulvinar",
-        "alt": "gallery 1"
-        }
-        ])
-      </div>
+      ])
     </div>
   </div>
 </div>
