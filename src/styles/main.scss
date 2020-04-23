@@ -13,12 +13,13 @@
 @import "base/fonts";
 @import "base/utility";
 @import "base/button";
-
 // ----------------------------------------------------------------------
 // Layout
 // ----------------------------------------------------------------------
+@import "layout/slide";
+@import "layout/content";
+@import "layout/footer";
 @import "layout/header";
-
 
 // ----------------------------------------------------------------------
 // Custom
