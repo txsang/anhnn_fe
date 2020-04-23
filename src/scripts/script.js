@@ -1,4 +1,3 @@
-
 $('.slider-content').slick({
   dots: true,
   arrows: true,
