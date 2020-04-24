@@ -1,0 +1,30 @@
+.bg-video {
+  background-image: url("../images/ima-video.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  color: #000000;
+  margin: 0 auto;
+}
+.content-video {
+  width: 100%;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  text-align: center;
+  height: 550px;
+  position: relative;
+  .text-video-h2 {
+    font-size: 48px;
+    font-family: Lato;
+  }
+  .text-video-p {
+    font-size: 18px;
+    font-family: Lato;
+    width: 700px;
+    text-align: left;
+    margin: 0 auto;
+  }
+}
+.video-start {
+  margin-top: 250px;
+}
