@@ -3,24 +3,21 @@
   text-align: center;
   height: 700px;
 }
-.center {
-  width: 1170px;
-  margin: 0 auto;
-}
 .head-content {
   text-align: center;
   font-family: Lato;
   margin-top: 70px;
-    .head-h2 {
+  .head-h2 {
     font-size: 36px;
     font-weight: bold;
-    }
-    .head-p {
+  }
+  .head-p {
     font-size: 20px;
-    }
+  }
 }
   .price-1 {
-  &:hover, &:active, .price-1 h2 li {
+  &:hover,
+  &:active {
   color: #4bcaff;
   }
   height: 415px;
@@ -30,32 +27,33 @@
   margin-left: 70px;
   margin-top: 52px;
   border-radius: 8px;
-    .price1-p {
+  .price1-p {
     font-size: 85px;
     background-color: #91c46b;
-    color:white;
-    }
-    .price1-h2 {
+    color: #ffffff;
+  }
+  .price1-h2 {
     font-size: 17px;
     font-weight: bold;
     margin: 25px 0;
-    }
-    .price1-a {
+  }
+  .price1-a {
     font-size: 15px;
     background-color: #91c46b;
     padding: 15px 30px;
-    color: white;
+    color: #ffffff;
     margin: 10px 0;
     font-family: Lato;
-    }
-    .type li {
+  }
+  .type li {
     margin: 20px 0;
     font-size: 18px;
     font-family: Lato;
-    }
+  }
 }
 .price-2 {
-  &:hover, &:active, .price-2 h2 li{
+  &:hover,
+  &:active {
   color: #4bcaff;
   }
   width: 370px;
@@ -65,29 +63,30 @@
   margin-left: 30px;
   margin-top: 30px;
   border-radius: 8px;
-    .price2-h2 {
+  .price2-h2 {
     font-size: 22px;
     font-weight: bold;
     margin: 25px 0;
-    }
-    .price2-p {
+  }
+  .price2-p {
     font-size: 80px;
     background-color: #4bcaff;
-    color: white;
-    }
-    .price2-a {
+    color: #ffffff;
+  }
+  .price2-a {
     font-size: 20px;
     background-color: #4bcaff;
     padding: 15px 30px;
-    color: white;
-    }
-    .type li {
+    color: #ffffff;
+  }
+  .type li {
     margin: 20px 0;
-    }
+  }
 }
 .price-3 {
-  &:hover, &:active, .price-3 h2 li{
-  color: #4bcaff;
+  &:hover,
+  &:active {
+    color: #4bcaff;
   }
   height: 415px;
   width: 300px;
@@ -95,44 +94,46 @@
   float: left;
   margin: 52px 0 0 30px;
   border-radius: 8px;
-    .price3-h2 {
+  .price3-h2 {
     font-size: 17px;
     font-weight: bold;
     margin: 25px 0;
-    }
-    .price3-p {
+  }
+  .price3-p {
     font-size: 80px;
     background-color: #fd7c00;
-    color: white;
-    }
-    .price3-a {
+    color: #ffffff;
+  }
+  .price3-a {
     font-size: 20px;
     background-color: #fd7c00;
     padding: 15px 30px;
-    color: white;
-    }
-    .type li {
+    color: #ffffff;
+  }
+  .type li {
     margin: 20px 0;
-    }
+  }
 }
 .type {
   list-style-type: none;
 }
 .testimo {
   width: 47%;
-  margin: 20px 280px;
-    .addr {
+  margin: 0 280px;
+  overflow: auto;
+  .addr {
     text-align: right;
     margin-bottom: 35px;
-    }
-    .test-h2 {
+  }
+  .test-h2 {
     font-size: 36px;
     margin-bottom: 35px;
     font-weight: bold;
-    }
+  }
 }
 .wrap-content-test {
-  &:hover, &:active {
+  &:hover,
+  &:active {
     color: #4bcaff;
   }
   width: 370px;
