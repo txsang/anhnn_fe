@@ -5,31 +5,26 @@
   width: 100%;
   color: #000000;
   margin: 0 auto;
-  p {
-  margin: 0 auto;
-  }
 }
 .content-video {
   width: 100%;
-  border: 1px solid red;
+  border: 1px solid #ffffff;
   color: #ffffff;
   text-align: center;
   height: 550px;
   position: relative;
-  span {
-  font-size: 48px;
-  font-family: Lato;
+  .text-video-h2 {
+    font-size: 48px;
+    font-family: Lato;
   }
-  p {
-  font-size: 18px;
-  font-family: Lato;
-  width: 770px;
+  .text-video-p {
+    font-size: 18px;
+    font-family: Lato;
+    width: 700px;
+    text-align: left;
+    margin: 0 auto;
   }
 }
-.center {
-  width: 1170px;
-  margin: 0 auto;
-}
-.g {
+.video-start {
   margin-top: 250px;
 }
