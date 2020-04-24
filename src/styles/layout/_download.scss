@@ -22,10 +22,11 @@
   }
 }
 .contact {
-  height: 680px;
+  height: 660px;
   width: 100%;
   border: 1px solid black;
   position: relative;
+  overflow: auto;
   .form {
     margin: 50px auto;
     border-radius: 5px;
