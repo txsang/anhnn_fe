@@ -1,9 +1,38 @@
-<div class="@@class">
-  <div class="img-gallery">
-    <a href="#"><img src="@@image" alt="@@alt"></a>
+<div class="center">
+  <div class="gallery" id="gallery">
+    <div class="head-content">
+      <h2 class="header-h2">show the gallery</h2>
+      <p>summarise what your product is all about</p>
+    </div>
+    <div class="screen">
+      @@loop("gallery-loop.html", [
+        {
+          "class": "wrap-content-gallery",
+          "title": "SCRENN SHOT #1",
+          "image": "images/image-gallery.jpg",
+          "description": "Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa it porta nequetiam elerisque mi id faucibus iaculis vitae pulvinar",
+          "alt": "gallery 1"
+        },{
+          "class": "wrap-content-gallery",
+          "title": "SCRENN SHOT #2",
+          "image": "images/image-gallery.jpg",
+          "description": "Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa it porta nequetiam elerisque mi id faucibus iaculis vitae pulvinar",
+          "alt": "gallery 1"
+        },{
+          "class": "wrap-content-gallery",
+          "title": "SCRENN SHOT #3",
+          "image": "images/image-gallery.jpg",
+          "description": "Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa it porta nequetiam elerisque mi id faucibus iaculis vitae pulvinar",
+          "alt": "gallery 1"
+        },{
+         "class": "wrap-content-gallery last-content",
+          "title": "SCRENN SHOT #3",
+          "image": "images/image-gallery.jpg",
+          "description": "Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa it porta nequetiam elerisque mi id faucibus iaculis vitae pulvinar",
+          "alt": "gallery 1",
+          "tag": "<p>mycontent</p>"
+        }
+      ])
+    </div>
   </div>
-  <div class="pseudu">
-    <a class="content-pseudu" href="#">@@title</a>
-  </div>
-  <p>@@description</p>
 </div>
