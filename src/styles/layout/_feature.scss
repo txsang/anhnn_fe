@@ -1,0 +1,38 @@
+.feature {
+  overflow: auto;
+}
+.head-p {
+  margin-bottom: 50px;
+}
+.wrap-content-feature {
+  &:hover .img-feature {
+    background-color: #000000;
+  }
+  &:hover .header-h3 {
+    color: #4bcaff;
+  }
+  &:active .img-feature {
+    background-color: #000000;
+  }
+  &:active .header-h3 {
+    color: #4bcaff;
+  }
+  text-align: center;
+  width: 230px;
+  float: left;
+  margin: 30px;
+  font-family: Lato;
+  .header-h3 {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 30px;
+  }
+  .warp-feat-p {
+    font-size: 13px;
+  }
+  .img-feature {
+    border-radius: 50%;
+    padding: 0;
+    background-color: #4bcaff;
+  }
+}
