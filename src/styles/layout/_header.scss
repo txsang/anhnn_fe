@@ -4,6 +4,9 @@
   background-color: #000000;
   border-bottom: 1px solid #4bcaff;
   overflow: auto;
+  position: fixed;
+  z-index: 1;
+  opacity: 0.6;
 }
 .center {
   width: 1170px;
