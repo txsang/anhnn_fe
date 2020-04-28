@@ -19,11 +19,7 @@
   &:hover,
   &:active {
     color: #4bcaff;
-    transform: scale(1.25,1.1);
-    -moz-transform: scale(1.25,1.1);
-    -webkit-transform: scale(1.25,1.1);
-    -o-transform: scale(1.25,1.1);
-    -ms-transform: scale(1.25,1.1);
+    transform: scale(1.25, 1.1);
   }
   height: 415px;
   width: 300px;
@@ -60,11 +56,7 @@
   &:hover,
   &:active {
     color: #4bcaff;
-    transform: scale(1.25,1.1);
-    -moz-transform: scale(1.25,1.1);
-    -webkit-transform: scale(1.25,1.1);
-    -o-transform: scale(1.25,1.1);
-    -ms-transform: scale(1.25,1.1);
+    transform: scale(1.25, 1.1);
   }
   width: 300px;
   height: 415px;
@@ -97,11 +89,7 @@
   &:hover,
   &:active {
     color: #4bcaff;
-    transform: scale(1.25,1.1);
-    -moz-transform: scale(1.25,1.1);
-    -webkit-transform: scale(1.25,1.1);
-    -o-transform: scale(1.25,1.1);
-    -ms-transform: scale(1.25,1.1);
+    transform: scale(1.25, 1.1);
   }
   height: 415px;
   width: 300px;
@@ -133,25 +121,32 @@
   list-style-type: none;
 }
 .testimo {
-  width: 47%;
+  width: 48%;
   margin: 0 280px;
   overflow: auto;
+  .img {
+    display: inline;
+  }
   .addr {
     text-align: right;
-    margin-bottom: 35px;
+    margin-bottom: 10px;
   }
   .test-h2 {
     font-size: 36px;
     margin-bottom: 35px;
     font-weight: bold;
   }
+  .con-test {
+    overflow: auto;
+    margin-bottom: 30px;
+    .slick-dots {
+      bottom: 0;
+    }
+  }
 }
 .wrap-content-test {
-  &:hover,
-  &:active {
-    color: #4bcaff;
-  }
-  width: 370px;
+  color: #4bcaff;
+  width: 400px;
   float: right;
   text-align: left;
 }
