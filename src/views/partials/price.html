@@ -1,11 +1,11 @@
 <div class="center">
-  <div class="price">
+  <div id="price" class="price">
     <div class="head-content">
       <h2 class="head-h2">choose your price</h2>
       <p class="head-p">summarise what your product is all about</p>
     </div>
     @@loop("price-loop.html", [{
-      "class1": "price-1",
+      "class1": "price-1 wow pulse",
       "classh3": "price1-h2",
       "classp": "price1-p",
       "classa": "price1-a",
@@ -43,18 +43,26 @@
       }
     ])
   </div>
-  <div class="testimo">
+  <div id="testimo" class="testimo">
     <h2 class="head-content test-h2">Testimonials</h2>
-    <div>
-      <img src="images/icon-10.png" alt="icon">
-      <div class="wrap-content-test">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunceget nunc vitae tellus luctus ullamcorper. Nam porttior ullamcorper felis at convalis. Aenean ornare vestibulum nisi fringilla lacinia. Nullampulvinar sollicutudin velit id laoreet. Quisque non rhoncussem</p>
-        <address class="addr">
-          <p>John Doe</p>
-          <p>frome some company</p>
-        </address>
-      </div>
-    </div>
+    <div class="con-test">
+    @@loop("testimo-loop.html", [{
+      "image": "images/icon-10.png",
+      "testi-content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunceget nunc vitae tellus luctus ullamcorper. Nam porttior ullamcorper felis at convalis. Aenean ornare vestibulum nisi fringilla lacinia. Nullampulvinar sollicutudin velit id laoreet. Quisque non rhoncussem",
+      "name": "John Doe",
+      "address": "frome some company"
+      },{
+      "image": "images/icon-10.png",
+      "testi-content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunceget nunc vitae tellus luctus ullamcorper. Nam porttior ullamcorper felis at convalis. Aenean ornare vestibulum nisi fringilla lacinia. Nullampulvinar sollicutudin velit id laoreet. Quisque non rhoncussem",
+      "name": "John Doe",
+      "address": "frome some company"
+      },{
+      "image": "images/icon-10.png",
+      "testi-content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunceget nunc vitae tellus luctus ullamcorper. Nam porttior ullamcorper felis at convalis. Aenean ornare vestibulum nisi fringilla lacinia. Nullampulvinar sollicutudin velit id laoreet. Quisque non rhoncussem",
+      "name": "John Doe",
+      "address": "frome some company"
+      }
+    ])
+  </div>
   </div>
 </div>
-

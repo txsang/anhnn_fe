@@ -19,6 +19,7 @@
   &:hover,
   &:active {
     color: #4bcaff;
+    transform: scale(1.25, 1.1);
   }
   height: 415px;
   width: 300px;
@@ -55,13 +56,14 @@
   &:hover,
   &:active {
     color: #4bcaff;
+    transform: scale(1.25, 1.1);
   }
-  width: 370px;
-  height: 455px;
+  width: 300px;
+  height: 415px;
   border: 1px solid #000000;
   float: left;
-  margin-left: 30px;
-  margin-top: 30px;
+  margin-left: 70px;
+  margin-top: 52px;
   border-radius: 8px;
   .price2-h2 {
     font-size: 22px;
@@ -80,19 +82,20 @@
     color: #ffffff;
   }
   .type li {
-    margin: 20px 0;
+    margin: 15px 0;
   }
 }
 .price-3 {
   &:hover,
   &:active {
     color: #4bcaff;
+    transform: scale(1.25, 1.1);
   }
   height: 415px;
   width: 300px;
   border: 1px solid #000000;
   float: left;
-  margin: 52px 0 0 30px;
+  margin: 52px 0 0 70px;
   border-radius: 8px;
   .price3-h2 {
     font-size: 17px;
@@ -118,25 +121,32 @@
   list-style-type: none;
 }
 .testimo {
-  width: 47%;
+  width: 48%;
   margin: 0 280px;
   overflow: auto;
+  .img {
+    display: inline;
+  }
   .addr {
     text-align: right;
-    margin-bottom: 35px;
+    margin-bottom: 10px;
   }
   .test-h2 {
     font-size: 36px;
     margin-bottom: 35px;
     font-weight: bold;
   }
+  .con-test {
+    overflow: auto;
+    margin-bottom: 30px;
+    .slick-dots {
+      bottom: 0;
+    }
+  }
 }
 .wrap-content-test {
-  &:hover,
-  &:active {
-    color: #4bcaff;
-  }
-  width: 370px;
+  color: #4bcaff;
+  width: 400px;
   float: right;
   text-align: left;
 }

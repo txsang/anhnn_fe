@@ -4,6 +4,9 @@
   background-color: #000000;
   border-bottom: 1px solid #4bcaff;
   overflow: auto;
+  position: fixed;
+  z-index: 1;
+  opacity: 0.7;
 }
 .center {
   width: 1170px;
@@ -16,13 +19,12 @@
   float: left;
   margin-left: 4%;
 }
-.menu {
+.ulmenu {
   float: right;
   overflow: auto;
   width: 60%;
   .menu-a {
-    &:hover,
-    &:active {
+    &:hover {
       color: #4bcaff;
       font-size: 13px;
       font-weight: bold;
@@ -30,9 +32,18 @@
     font-size: 13px;
     color: white;
     display: inline-block;
-    padding: 40px 10px;
+    padding: 35px 10px;
     float: left;
     text-transform: uppercase;
+    -webkit-transition: .5s all ease-out;
+    -moz-transition: .5s all ease-out;
+    transition: .5s all ease-out;
+    border-top: 2px solid #000;
+  }
+  li.active a {
+    color: #4bcaff;
+    font-size: 13px;
+    font-weight: bold;
+    border-top: 2px solid #4bcaff;
   }
 }
-

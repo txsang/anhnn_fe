@@ -27,6 +27,7 @@
 <link rel="stylesheet" type="text/css" media="screen" href="node_modules/magnific-popup/dist/magnific-popup.css" />
 <link rel="stylesheet" type="text/css" media="screen" href="node_modules/slick-carousel/slick/slick.css" />
 <link rel="stylesheet" type="text/css" media="screen" href="node_modules/slick-carousel/slick/slick-theme.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="node_modules/wow.js/css/libs/animate.css" />
 <!-- endbuild -->
 <!-- build:css(.tmp) style/style.min.css -->
 <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
@@ -35,26 +36,26 @@
 </head>
 <body>
     <!-- include header.html -->
-<header class="header-container">
+<header id="header-container" class="header-container">
   <div class="center">
     <div>
       <a class="logo-a" href="#"><img src="images/logo.png" alt="logo" ></a>
     </div>
-    <nav class="menu">
+    <nav id="menu">
       <ul class="ulmenu">
-        <li><a class="menu-a" href="#">home</a></li>
-        <li><a class="menu-a" href="#">feature</a></li>
-        <li><a class="menu-a" href="#">gallery</a></li>
-        <li><a class="menu-a" href="#">video</a></li>
-        <li><a class="menu-a" href="#">prices</a></li>
-        <li><a class="menu-a" href="#">testimonials<a></li>
-        <li><a class="menu-a" href="#">download</a></li>
-        <li><a class="menu-a" href="#">contact</a></li>
+        <li><a class="menu-a" href="#single-item">home</a></li>
+        <li><a class="menu-a" href="#feature">feature</a></li>
+        <li><a class="menu-a" href="#gallery">gallery</a></li>
+        <li><a class="menu-a" href="#bg-video">video</a></li>
+        <li><a class="menu-a" href="#price">prices</a></li>
+        <li><a class="menu-a" href="#testimo">testimonials<a></li>
+        <li><a class="menu-a" href="#download">download</a></li>
+        <li><a class="menu-a" href="#contact">contact</a></li>
       </ul>
     </nav>
   </div>
 </header>
-<div class="single-item">
+<div id="single-item" class="single-item">
   <div class="center">
     <div class="slider-content">
       <div class="right-content">
@@ -68,8 +69,8 @@
   </div>
   <div class="link-icon">
     <p class="link-icon-p">Available on:</p>
-      <a class="link-icon-a" href="#"><img src="images/icon-05.png" alt="icon-apple"></a>
-      <a class="link-icon-a" href="#"><img src="images/icon-06.png" alt="icon-androi"></a>
+      <a class="link-icon-a" href="#"><img src="images/apple.svg" alt="icon-apple"></a>
+      <a class="link-icon-a" href="#"><img src="images/android.svg" alt="icon-androi"></a>
   </div>
 </div>
 <div class="right-content">
@@ -83,8 +84,8 @@
   </div>
   <div class="link-icon">
     <p class="link-icon-p">Available on:</p>
-      <a class="link-icon-a" href="#"><img src="images/icon-05.png" alt="icon-apple"></a>
-      <a class="link-icon-a" href="#"><img src="images/icon-06.png" alt="icon-androi"></a>
+      <a class="link-icon-a" href="#"><img src="images/apple.svg" alt="icon-apple"></a>
+      <a class="link-icon-a" href="#"><img src="images/android.svg" alt="icon-androi"></a>
   </div>
 </div>
 <div class="right-content">
@@ -98,39 +99,49 @@
   </div>
   <div class="link-icon">
     <p class="link-icon-p">Available on:</p>
-      <a class="link-icon-a" href="#"><img src="images/icon-05.png" alt="icon-apple"></a>
-      <a class="link-icon-a" href="#"><img src="images/icon-06.png" alt="icon-androi"></a>
+      <a class="link-icon-a" href="#"><img src="images/apple.svg" alt="icon-apple"></a>
+      <a class="link-icon-a" href="#"><img src="images/android.svg" alt="icon-androi"></a>
   </div>
 </div>
 
     </div>
   </div>
 </div>
-<div class="feature center">  <!-- FEATURES -->
+<div id="feature" class="feature">  <!-- FEATURES -->
+  <div class="center">
   <div class="head-content">
-    <h2 class="header-h2">summarise the feature</h2>
-    <p class="head-p">summarise what your produce is all about</p>
+    <h2 class="header-h2 wow fadeInUp" data-wow-duration="5s" data-wow-delay="1s" data-wow-offset="20" data-wow-iteration="10">summarise the feature</h2>
+    <p class="head-p wow fadeInUp" data-wow-duration="5s" data-wow-offset="15" data-wow-iteration="10">summarise what your produce is all about</p>
   </div>
   <div class="wrap-content-feature">
-  <img class="img-feature" src="images/feat-1.png" alt="feat-1">
-  <h3 class="header-h3">ATTRACTIVE LAYOUT</h3>
+  <div>
+    <a href=""><img class="img-feature" src="images/feat-1.png" alt="feat-1"></a>
+  </div>
+  <h3 class="header-h3 wow fadeInUp" data-wow-duration="5s" data-wow-offset="15" data-wow-iteration="5">ATTRACTIVE LAYOUT</h3>
   <p class="warp-feat-p">Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa it porta nequetiam elerisque mi id faucibus iaculis vitae pulvinar</p>
 </div><div class="wrap-content-feature">
-  <img class="img-feature" src="images/feat-2.png" alt="feat-2">
-  <h3 class="header-h3">FRESH DESIGN</h3>
+  <div>
+    <a href=""><img class="img-feature" src="images/feat-2.png" alt="feat-2"></a>
+  </div>
+  <h3 class="header-h3 wow fadeInUp" data-wow-duration="5s" data-wow-offset="15" data-wow-iteration="5">FRESH DESIGN</h3>
   <p class="warp-feat-p">Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa it porta nequetiam elerisque mi id faucibus iaculis vitae pulvinar</p>
 </div><div class="wrap-content-feature">
-  <img class="img-feature" src="images/feat-3.png" alt="feat-3">
-  <h3 class="header-h3">MULTIPURPOSE</h3>
+  <div>
+    <a href=""><img class="img-feature" src="images/feat-3.png" alt="feat-3"></a>
+  </div>
+  <h3 class="header-h3 wow fadeInUp" data-wow-duration="5s" data-wow-offset="15" data-wow-iteration="5">MULTIPURPOSE</h3>
   <p class="warp-feat-p">Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa it porta nequetiam elerisque mi id faucibus iaculis vitae pulvinar</p>
 </div><div class="wrap-content-feature">
-  <img class="img-feature" src="images/feat-4.png" alt="feat-4">
-  <h3 class="header-h3">EASY TO CUSTOMIZE</h3>
+  <div>
+    <a href=""><img class="img-feature" src="images/feat-4.png" alt="feat-4"></a>
+  </div>
+  <h3 class="header-h3 wow fadeInUp" data-wow-duration="5s" data-wow-offset="15" data-wow-iteration="5">EASY TO CUSTOMIZE</h3>
   <p class="warp-feat-p">Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa it porta nequetiam elerisque mi id faucibus iaculis vitae pulvinar</p>
+</div>
 </div>
 </div>
 <div class="center">
-  <div class="gallery">
+  <div class="gallery" id="gallery">
     <div class="head-content">
       <h2 class="header-h2">show the gallery</h2>
       <p>summarise what your product is all about</p>
@@ -172,7 +183,7 @@
     </div>
   </div>
 </div>
-<div class="bg-video">
+<div id="bg-video" class="bg-video">
   <div class="content-video">
     <div class="video-start">
       <div>
@@ -185,12 +196,12 @@
 </div>
 
 <div class="center">
-  <div class="price">
+  <div id="price" class="price">
     <div class="head-content">
       <h2 class="head-h2">choose your price</h2>
       <p class="head-p">summarise what your product is all about</p>
     </div>
-    <div class="price-1">
+    <div class="price-1 wow pulse">
   <h3 class="price1-h2">BASIC PACKAGE</h3>
   <p class="price1-p">20$</p>
   <ul class="type">
@@ -228,32 +239,54 @@
   </div>
 </div>
   </div>
-  <div class="testimo">
+  <div id="testimo" class="testimo">
     <h2 class="head-content test-h2">Testimonials</h2>
+    <div class="con-test">
     <div>
-      <img src="images/icon-10.png" alt="icon">
-      <div class="wrap-content-test">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunceget nunc vitae tellus luctus ullamcorper. Nam porttior ullamcorper felis at convalis. Aenean ornare vestibulum nisi fringilla lacinia. Nullampulvinar sollicutudin velit id laoreet. Quisque non rhoncussem</p>
-        <address class="addr">
-          <p>John Doe</p>
-          <p>frome some company</p>
-        </address>
-      </div>
-    </div>
+  <img class="img" src="images/icon-10.png" alt="icon">
+  <div class="wrap-content-test">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunceget nunc vitae tellus luctus ullamcorper. Nam porttior ullamcorper felis at convalis. Aenean ornare vestibulum nisi fringilla lacinia. Nullampulvinar sollicutudin velit id laoreet. Quisque non rhoncussem</p>
+    <address class="addr">
+      <p>John Doe</p>
+      <p>frome some company</p>
+    </address>
+  </div>
+</div>
+<div>
+  <img class="img" src="images/icon-10.png" alt="icon">
+  <div class="wrap-content-test">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunceget nunc vitae tellus luctus ullamcorper. Nam porttior ullamcorper felis at convalis. Aenean ornare vestibulum nisi fringilla lacinia. Nullampulvinar sollicutudin velit id laoreet. Quisque non rhoncussem</p>
+    <address class="addr">
+      <p>John Doe</p>
+      <p>frome some company</p>
+    </address>
+  </div>
+</div>
+<div>
+  <img class="img" src="images/icon-10.png" alt="icon">
+  <div class="wrap-content-test">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunceget nunc vitae tellus luctus ullamcorper. Nam porttior ullamcorper felis at convalis. Aenean ornare vestibulum nisi fringilla lacinia. Nullampulvinar sollicutudin velit id laoreet. Quisque non rhoncussem</p>
+    <address class="addr">
+      <p>John Doe</p>
+      <p>frome some company</p>
+    </address>
+  </div>
+</div>
+
+  </div>
   </div>
 </div>
 
 
 
-
     <!-- include download.html -->
-<div class="download">
+<div id="download" class="download">
   <p class="text">Do you Like this app?</p>
   <div>
     <a class="text-down" href="#" >DOWNLOAD NOW</a>
   </div>
 </div>
-<div class="contact">
+<div id="contact" class="contact">
   <div class="iframe-maps">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.7833977098508!2d108.22180031468424!3d16.076725988876284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142183aec64d44f%3A0x2ec509f834b313bc!2zMzggQuG6oWNoIMSQ4bqxbmcsIFRo4bqhY2ggVGhhbmcsIFEuIEjhuqNpIENow6J1LCDEkMOgIE7hurVuZyA1NTAwMDAsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1587608964555!5m2!1svi!2s" width="100%" height="650px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     <div class="form">
@@ -284,6 +317,7 @@
 <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
 <script type="text/javascript" src="node_modules/magnific-popup/dist/jquery.magnific-popup.js"></script>
 <script type="text/javascript" src="node_modules/slick-carousel/slick/slick.min.js"></script>
+<script type="text/javascript" src="node_modules/wow.js/dist/wow.js"></script>
 <!-- endbuild -->
 <!-- build:js script/script.min.js -->
 <script type="text/javascript" src="scripts/script.js"></script>
