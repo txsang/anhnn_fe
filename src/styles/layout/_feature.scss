@@ -1,8 +1,10 @@
 .feature {
   overflow: auto;
 }
-.head-p {
-  margin-bottom: 50px;
+.head-content {
+  .head-p {
+    margin-bottom: 50px;
+  }
 }
 .wrap-content-feature {
   &:hover .img-feature {
@@ -22,6 +24,17 @@
   float: left;
   margin: 30px;
   font-family: Lato;
+  @include breakpoint(1199) {
+    padding: 10px;
+    width: 25%;
+    margin: 0;
+  }
+  @include breakpoint(991) {
+    width: 50%;
+  }
+  @include breakpoint(480) {
+    width: 100%;
+  }
   .header-h3 {
     font-weight: bold;
     font-size: 15px;

@@ -1,7 +1,5 @@
 .price {
-  overflow: auto;
   text-align: center;
-  height: 700px;
 }
 .head-content {
   text-align: center;
@@ -19,19 +17,30 @@
   &:hover,
   &:active {
     color: #4bcaff;
-    transform: scale(1.25, 1.1);
+    transform: scale(1.23, 1.1);
   }
   height: 415px;
   width: 300px;
   border: 1px solid #000000;
   float: left;
-  margin-left: 70px;
+  margin-left: 60px;
   margin-top: 52px;
   border-radius: 8px;
+  @include breakpoint(1199) {
+    width: 28%;
+    margin-left: 4%;
+  }
+  @include breakpoint(767) {
+    width: 70%;
+    margin: 0 15%;
+  }
   .price1-p {
-    font-size: 85px;
+    font-size: 80px;
     background-color: #91c46b;
     color: #ffffff;
+    @include breakpoint(991) {
+      font-size: 4rem;
+    }
   }
   .price1-h2 {
     font-size: 17px;
@@ -56,24 +65,38 @@
   &:hover,
   &:active {
     color: #4bcaff;
-    transform: scale(1.25, 1.1);
+    transform: scale(1.23, 1.1);
   }
   width: 300px;
   height: 415px;
   border: 1px solid #000000;
   float: left;
-  margin-left: 70px;
+  margin-left: 60px;
   margin-top: 52px;
   border-radius: 8px;
+  @include breakpoint(1199) {
+    width: 28%;
+    margin-left: 4%;
+  }
+  @include breakpoint(767) {
+    width: 70%;
+    margin: 10% 15%;
+  }
   .price2-h2 {
     font-size: 22px;
     font-weight: bold;
-    margin: 25px 0;
+    margin: 20px 0;
+    @include breakpoint(1199) {
+      font-size: 1rem;
+    }
   }
   .price2-p {
     font-size: 80px;
     background-color: #4bcaff;
     color: #ffffff;
+    @include breakpoint(991) {
+      font-size: 4rem;
+    }
   }
   .price2-a {
     font-size: 20px;
@@ -89,14 +112,22 @@
   &:hover,
   &:active {
     color: #4bcaff;
-    transform: scale(1.25, 1.1);
+    transform: scale(1.23, 1.1);
   }
   height: 415px;
   width: 300px;
   border: 1px solid #000000;
   float: left;
-  margin: 52px 0 0 70px;
+  margin: 52px 0 100px 60px;
   border-radius: 8px;
+  @include breakpoint(1199) {
+    width: 28%;
+    margin-left: 4%;
+  }
+  @include breakpoint(767) {
+    width: 70%;
+    margin: 0 15%;
+  }
   .price3-h2 {
     font-size: 17px;
     font-weight: bold;
@@ -106,6 +137,9 @@
     font-size: 80px;
     background-color: #fd7c00;
     color: #ffffff;
+    @include breakpoint(991) {
+      font-size: 4rem;
+    }
   }
   .price3-a {
     font-size: 20px;
@@ -124,12 +158,16 @@
   width: 48%;
   margin: 0 280px;
   overflow: auto;
-  .img {
-    display: inline;
+  @include breakpoint(1199) {
+    width: 70%;
+    margin: 0 auto;
+  }
+  @include breakpoint(767) {
+    width: 100%;
   }
   .addr {
     text-align: right;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .test-h2 {
     font-size: 36px;
@@ -137,16 +175,49 @@
     font-weight: bold;
   }
   .con-test {
-    overflow: auto;
     margin-bottom: 30px;
+    .slick-list {
+      height: 300px;
+    }
     .slick-dots {
       bottom: 0;
+      li {
+        width: 60px;
+      }
+      li button:before {
+        content: '';
+        background: #4bcaff;
+        width: 50px;
+        height: 6px;
+      }
     }
   }
 }
 .wrap-content-test {
   color: #4bcaff;
-  width: 400px;
+  width: 375px;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 40px;
   float: right;
   text-align: left;
+  @include breakpoint(1199) {
+    width: 65%;
+    font-size: 1rem;
+    padding-left: 5px;
+  }
+  @include breakpoint(480) {
+    font-size: 0.7rem;
+  }
+}
+.img {
+    display: inline;
+    width: 160px;
+    height: 180px;
+}
+.slick-slide img {
+  display: inline;
+  @include breakpoint(480) {
+    width: 35%;
+  }
 }

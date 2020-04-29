@@ -11,6 +11,9 @@
   .header-h2 {
     font-size: 36px;
     font-weight: bold;
+    @include breakpoint(480) {
+      font-size: 1.5rem;
+    }
   }
 }
 .wrap-content-gallery {
@@ -18,13 +21,28 @@
     display: block;
   }
   text-align: center;
-  width: 270px;
+  width: 25%;
   float: left;
   margin-top: 30px;
-  margin-right: 30px;
   position: relative;
   font-size: 13px;
   margin-bottom: 20px;
+  padding: 15px;
+  @include breakpoint(991) {
+    width: 50%;
+  }
+  @include breakpoint(480) {
+    width: 100%;
+  }
+  .item-link {
+    display: block;
+    .item-image {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+  }
 }
 .last-content {
   margin-right: 0;
@@ -52,5 +70,43 @@
     width: 270px;
     left: 0;
     bottom: 0;
+  }
+}
+
+.img-gallery {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  &:after {
+    content: '';
+    background-color: rgba(75, 202, 255, .2);
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    @include transition(all .3s);
+  }
+  &:hover {
+    .content-pseudu {
+      bottom: 0;
+    }
+    &:after {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  .content-pseudu {
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+    left: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    z-index: 1;
+    @include transition(all .3s);
   }
 }

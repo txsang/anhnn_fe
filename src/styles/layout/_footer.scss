@@ -3,15 +3,31 @@
   background-color: #414042;
   color: #ffffff;
   overflow: auto;
+  @include breakpoint(767) {
+    font-size: 1em;
+  }
 }
 .left {
   text-align: left;
   display: inline-block;
   padding: 38px 0;
+  @include breakpoint(767) {
+    padding: 15px 0;
+  }
+  @include breakpoint(480) {
+    padding-top: 10px;
+  }
 }
 .right {
   display: inline;
   text-align: right;
   float: right;
   padding: 38px 0;
+  @include breakpoint(767) {
+    padding: 15px 0;
+  }
+  @include breakpoint(480) {
+    padding: 0;
+    float: left;
+  }
 }
