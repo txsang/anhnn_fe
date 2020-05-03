@@ -15,6 +15,7 @@
   float: left;
   @include breakpoint(1199) {
     margin: 0;
+    padding: 10px 0;
   }
   @include breakpoint(767) {
     padding: 0;
