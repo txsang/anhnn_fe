@@ -57,29 +57,25 @@
   font-size: 15px;
   color: #ffffff;
   text-align: center;
-  background-image: url("../images/icon-09.png");
-  background-position: center;
-  background-repeat: no-repeat;
   .content-pseudu {
     color: #4bcaff;
     background-color: #000000;
     padding: 10px;
     border-radius: 0 0 10px 10px;
-    opacity: 0.5;
+    opacity: 0.6;
     position: absolute;
     width: 270px;
     left: 0;
     bottom: 0;
   }
 }
-
 .img-gallery {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
   &:after {
     content: '';
-    background-color: rgba(75, 202, 255, .2);
+    background-color: rgba(75, 202, 255, .4);
     top: 0;
     left: 0;
     width: 100%;

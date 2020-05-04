@@ -13,7 +13,7 @@
     font-size: 20px;
   }
 }
-  .price-1 {
+.price-1 {
   &:hover,
   &:active {
     color: #4bcaff;
@@ -30,8 +30,15 @@
     width: 28%;
     margin-left: 5%;
   }
+  @include breakpoint(991) {
+    height: auto;
+  }
   @include breakpoint(767) {
-    width: 70%;
+    width: 50%;
+    margin: 0 25%;
+  }
+  @include breakpoint(480) {
+    width: 75%;
     margin: 0 15%;
   }
   .price1-p {
@@ -46,19 +53,25 @@
     font-size: 17px;
     font-weight: bold;
     margin: 25px 0;
+    @include breakpoint(480) {
+      line-height: 3rem;
+      margin: 0;
+    }
   }
   .price1-a {
     font-size: 15px;
     background-color: #91c46b;
     padding: 15px 30px;
     color: #ffffff;
-    margin: 10px 0;
     font-family: Lato;
   }
   .type li {
     margin: 20px 0;
     font-size: 18px;
     font-family: Lato;
+    @include breakpoint(480) {
+      margin: 10px;
+    }
   }
 }
 .price-2 {
@@ -78,9 +91,16 @@
     width: 28%;
     margin-left: 5%;
   }
+  @include breakpoint(991) {
+    height: auto;
+  }
   @include breakpoint(767) {
-    width: 70%;
-    margin: 10% 15%;
+    width: 50%;
+    margin: 10% 25%;
+  }
+  @include breakpoint(480) {
+  width: 75%;
+  margin: 10% 15%;
   }
   .price2-h2 {
     font-size: 22px;
@@ -106,6 +126,9 @@
   }
   .type li {
     margin: 15px 0;
+    @include breakpoint(991) {
+      margin: 11px;
+    }
   }
 }
 .price-3 {
@@ -118,20 +141,23 @@
   width: 300px;
   border: 1px solid #000000;
   float: left;
-  margin: 52px 0 100px 60px;
+  margin-left: 60px;
+  margin-top: 52px;
   border-radius: 8px;
   @include breakpoint(1199) {
     width: 28%;
     margin-left: 5%;
   }
-  @include breakpoint(767) {
-    width: 70%;
-    margin: 0 15%;
+  @include breakpoint(991) {
+    height: auto;
   }
-  .price3-h2 {
-    font-size: 17px;
-    font-weight: bold;
-    margin: 25px 0;
+  @include breakpoint(767) {
+    width: 50%;
+    margin: 0 25%;
+  }
+  @include breakpoint(480) {
+    width: 75%;
+    margin: 0 15%;
   }
   .price3-p {
     font-size: 80px;
@@ -141,14 +167,35 @@
       font-size: 4rem;
     }
   }
+  .price3-h2 {
+    font-size: 17px;
+    font-weight: bold;
+    margin: 25px 0;
+    @include breakpoint(480) {
+      line-height: 3rem;
+      margin: 0;
+    }
+  }
   .price3-a {
-    font-size: 20px;
+    font-size: 15px;
     background-color: #fd7c00;
     padding: 15px 30px;
     color: #ffffff;
+    font-family: Lato;
   }
   .type li {
     margin: 20px 0;
+    font-size: 18px;
+    font-family: Lato;
+    @include breakpoint(480) {
+      margin: 10px;
+    }
+  }
+}
+.link-pur {
+  height: 50px;
+  @include breakpoint(480) {
+    margin-top: 20px;
   }
 }
 .type {

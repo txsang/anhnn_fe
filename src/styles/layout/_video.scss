@@ -14,6 +14,9 @@
   text-align: center;
   height: 550px;
   position: relative;
+  @include breakpoint(991) {
+    height: auto;
+  }
   .text-video-h2 {
     font-size: 48px;
     font-family: Lato;
@@ -23,7 +26,13 @@
       font-size: 2.5rem;
     }
     @include breakpoint(767) {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
+    }
+    @include breakpoint(480) {
+      font-size: 1.2rem;
+    }
+    @include breakpoint(350) {
+      font-size: 1rem;
     }
   }
   .text-video-p {
@@ -35,19 +44,27 @@
     @include breakpoint(991) {
       width: 60%;
       font-size: 1rem;
+      margin-bottom: 20px;
     }
     @include breakpoint(767) {
       font-size: 0.8rem;
-      width: 70%;
+      width: 50%;
+    }
+    @include breakpoint(480) {
+      font-size: 0.5rem;
     }
   }
 }
 .video-start {
   margin-top: 250px;
-  @include breakpoint(480) {
+  @include breakpoint(991) {
     margin-top: 5rem;
   }
 }
 .video {
   margin-bottom: 15px;
+  @include breakpoint(480) {
+    width: 80px;
+    height: 50px;
+  }
 }
