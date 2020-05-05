@@ -59,3 +59,21 @@
     border-top: 2px solid #4bcaff;
   }
 }
+.icon {
+  display: none;
+  @include breakpoint(767) {
+    display: block;
+    float: right;
+    font-size: 40px;
+    margin: 5px;
+  }
+}
+.responsive {
+  float: left;
+  display: block;
+  width: 90%;
+  @include breakpoint(480) {
+    width: 80%;
+    font-size: 19px;
+  }
+}
