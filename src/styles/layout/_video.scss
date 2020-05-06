@@ -18,7 +18,7 @@
     height: auto;
   }
   .text-video-h2 {
-    font-size: 48px;
+    font-size: 3.5rem;
     font-family: Lato;
     @include breakpoint(991) {
       width: 90%;
@@ -56,7 +56,7 @@
   }
 }
 .video-start {
-  margin-top: 250px;
+  margin-top: 10rem;
   @include breakpoint(991) {
     margin-top: 5rem;
   }
