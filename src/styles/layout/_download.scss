@@ -10,10 +10,10 @@
     font-size: 55px;
     margin: 10px 0;
     @include breakpoint(767) {
-      font-size: 3rem;
+      font-size: 50px;
     }
     @include breakpoint(480) {
-      font-size: 2rem;
+      font-size: 30px;
     }
   }
   .text-down {
@@ -82,9 +82,6 @@
       font-size: 14px;
       @include breakpoint(767) {
         width: 90%;
-      }
-      @include breakpoint(480) {
-
       }
     }
     .btn-submit {

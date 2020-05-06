@@ -4,7 +4,8 @@
   color: #ffffff;
   overflow: auto;
   @include breakpoint(767) {
-    font-size: 1em;
+    height: auto;
+    font-size: 12px;
   }
 }
 .left {
