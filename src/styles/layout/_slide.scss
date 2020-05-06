@@ -21,22 +21,22 @@
   font-family: Lato;
   @include breakpoint(1199) {
     width: 60%;
-    font-size: 1rem;
+    font-size: 13px;
   }
   @include breakpoint(767) {
     margin: 40% 0 0;
   }
   @include breakpoint(480) {
     margin-top: 25%;
-    font-size: 0.8rem;
+    font-size: 10px;
   }
   .text-slide-h2 {
-    font-size: 3rem;
+    font-size: 48px;
     @include breakpoint(1199) {
-      font-size: 2rem;
+      font-size: 35px;
     }
     @include breakpoint(767) {
-      font-size: 1.4rem;
+      font-size: 24px;
     }
   }
 }
@@ -48,9 +48,7 @@
     width: 60%;
   }
   @include breakpoint(767) {
-    font-size: 0.5rem;
-  }
-  @include breakpoint(480) {
+    font-size: 10px;
   }
   .link-icon-p {
     font-size: 18px;
@@ -60,12 +58,12 @@
     line-height: 48px;
     padding-right: 20px;
     @include breakpoint(767) {
-      font-size: 1rem;
-      padding-right: 0.5rem;
-      line-height: 3rem;
+      font-size: 16px;
+      padding-right: 5px;
+      line-height: 36px;
     }
     @include breakpoint(350) {
-      font-size: 0.8rem;
+      font-size: 12px;
     }
   }
   .link-icon-a {
@@ -76,9 +74,9 @@
     border-radius: 50%;
     margin-bottom: 115px;
     @include breakpoint(767) {
-      margin-left: 0.8rem;
-      margin-bottom: 2rem;
-      padding: 0.5rem;
+      margin-left: 10px;
+      margin-bottom: 20px;
+      padding: 8px;
     }
     .img-icon {
       @include breakpoint(480) {
@@ -120,10 +118,14 @@
       margin-right: 10px;
     }
     @include breakpoint(767) {
-    font-size: 0.5rem;
-    padding: 0.5rem 1rem;
-    margin-right: 0.5rem;
-    margin-bottom: 1.5rem;
+    font-size: 10px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    }
+    @include breakpoint(350) {
+      font-size: 8px;
+      padding: 6px 12px;
     }
   }
 }
