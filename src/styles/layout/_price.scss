@@ -1,7 +1,5 @@
 .price {
-  overflow: auto;
   text-align: center;
-  height: 700px;
 }
 .head-content {
   text-align: center;
@@ -15,65 +13,110 @@
     font-size: 20px;
   }
 }
-  .price-1 {
+.price-1 {
   &:hover,
   &:active {
     color: #4bcaff;
-    transform: scale(1.25, 1.1);
+    transform: scale(1.23, 1.1);
   }
   height: 415px;
   width: 300px;
   border: 1px solid #000000;
   float: left;
-  margin-left: 70px;
+  margin-left: 60px;
   margin-top: 52px;
   border-radius: 8px;
+  @include breakpoint(1199) {
+    width: 28%;
+    margin-left: 5%;
+  }
+  @include breakpoint(991) {
+    height: auto;
+  }
+  @include breakpoint(767) {
+    width: 50%;
+    margin: 0 25%;
+  }
+  @include breakpoint(480) {
+    width: 75%;
+    margin: 0 15%;
+  }
   .price1-p {
-    font-size: 85px;
+    font-size: 80px;
     background-color: #91c46b;
     color: #ffffff;
+    @include breakpoint(991) {
+      font-size: 60px;
+    }
   }
   .price1-h2 {
     font-size: 17px;
     font-weight: bold;
     margin: 25px 0;
+    @include breakpoint(480) {
+      line-height: 40px;
+      margin: 0;
+    }
   }
   .price1-a {
     font-size: 15px;
     background-color: #91c46b;
     padding: 15px 30px;
     color: #ffffff;
-    margin: 10px 0;
     font-family: Lato;
   }
   .type li {
     margin: 20px 0;
     font-size: 18px;
     font-family: Lato;
+    @include breakpoint(480) {
+      margin: 10px;
+    }
   }
 }
 .price-2 {
   &:hover,
   &:active {
     color: #4bcaff;
-    transform: scale(1.25, 1.1);
+    transform: scale(1.23, 1.1);
   }
   width: 300px;
   height: 415px;
   border: 1px solid #000000;
   float: left;
-  margin-left: 70px;
+  margin-left: 60px;
   margin-top: 52px;
   border-radius: 8px;
+  @include breakpoint(1199) {
+    width: 28%;
+    margin-left: 5%;
+  }
+  @include breakpoint(991) {
+    height: auto;
+  }
+  @include breakpoint(767) {
+    width: 50%;
+    margin: 10% 25%;
+  }
+  @include breakpoint(480) {
+  width: 75%;
+  margin: 10% 15%;
+  }
   .price2-h2 {
     font-size: 22px;
     font-weight: bold;
-    margin: 25px 0;
+    margin: 20px 0;
+    @include breakpoint(1199) {
+      font-size: 20px;
+    }
   }
   .price2-p {
     font-size: 80px;
     background-color: #4bcaff;
     color: #ffffff;
+    @include breakpoint(991) {
+      font-size: 60px;
+    }
   }
   .price2-a {
     font-size: 20px;
@@ -83,38 +126,76 @@
   }
   .type li {
     margin: 15px 0;
+    @include breakpoint(991) {
+      margin: 11px;
+    }
   }
 }
 .price-3 {
   &:hover,
   &:active {
     color: #4bcaff;
-    transform: scale(1.25, 1.1);
+    transform: scale(1.23, 1.1);
   }
   height: 415px;
   width: 300px;
   border: 1px solid #000000;
   float: left;
-  margin: 52px 0 0 70px;
+  margin-left: 60px;
+  margin-top: 52px;
   border-radius: 8px;
-  .price3-h2 {
-    font-size: 17px;
-    font-weight: bold;
-    margin: 25px 0;
+  @include breakpoint(1199) {
+    width: 28%;
+    margin-left: 5%;
+  }
+  @include breakpoint(991) {
+    height: auto;
+  }
+  @include breakpoint(767) {
+    width: 50%;
+    margin: 0 25%;
+  }
+  @include breakpoint(480) {
+    width: 75%;
+    margin: 0 15%;
   }
   .price3-p {
     font-size: 80px;
     background-color: #fd7c00;
     color: #ffffff;
+    @include breakpoint(991) {
+      font-size: 60px;
+    }
+  }
+  .price3-h2 {
+    font-size: 17px;
+    font-weight: bold;
+    margin: 25px 0;
+    @include breakpoint(480) {
+      line-height: 40px;
+      margin: 0;
+    }
   }
   .price3-a {
-    font-size: 20px;
+    font-size: 15px;
     background-color: #fd7c00;
     padding: 15px 30px;
     color: #ffffff;
+    font-family: Lato;
   }
   .type li {
     margin: 20px 0;
+    font-size: 18px;
+    font-family: Lato;
+    @include breakpoint(480) {
+      margin: 10px;
+    }
+  }
+}
+.link-pur {
+  height: 50px;
+  @include breakpoint(480) {
+    margin-top: 20px;
   }
 }
 .type {
@@ -124,12 +205,16 @@
   width: 48%;
   margin: 0 280px;
   overflow: auto;
-  .img {
-    display: inline;
+  @include breakpoint(1199) {
+    width: 70%;
+    margin: 0 auto;
+  }
+  @include breakpoint(767) {
+    width: 100%;
   }
   .addr {
     text-align: right;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .test-h2 {
     font-size: 36px;
@@ -137,16 +222,48 @@
     font-weight: bold;
   }
   .con-test {
-    overflow: auto;
     margin-bottom: 30px;
+    .slick-list {
+      height: 300px;
+    }
     .slick-dots {
       bottom: 0;
+      li {
+        width: 60px;
+      }
+      li button:before {
+        content: '';
+        background: #4bcaff;
+        width: 50px;
+        height: 6px;
+      }
     }
   }
 }
 .wrap-content-test {
   color: #4bcaff;
-  width: 400px;
+  width: 375px;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 40px;
   float: right;
   text-align: left;
+  @include breakpoint(1199) {
+    width: 65%;
+    padding-left: 5px;
+  }
+  @include breakpoint(480) {
+    font-size: 10px;
+  }
+}
+.img {
+    display: inline;
+    width: 160px;
+    height: 180px;
+}
+.slick-slide img {
+  display: inline;
+  @include breakpoint(480) {
+    width: 35%;
+  }
 }

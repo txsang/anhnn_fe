@@ -75,3 +75,11 @@ new WOW(
   animateClass: 'animated'
   })
 new WOW().init();
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "ulmenu") {
+      x.className += " responsive";
+  } else {
+      x.className = "ulmenu";
+  }
+}

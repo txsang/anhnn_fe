@@ -9,6 +9,12 @@
   .text {
     font-size: 55px;
     margin: 10px 0;
+    @include breakpoint(767) {
+      font-size: 50px;
+    }
+    @include breakpoint(480) {
+      font-size: 30px;
+    }
   }
   .text-down {
     border: 1px solid #000000;
@@ -20,6 +26,10 @@
     font-size: 15px;
     border-radius: 10px;
     color: #414042;
+    @include breakpoint(480) {
+      width: 50%;
+      padding: 10px 0;
+    }
   }
 }
 .contact {
@@ -39,12 +49,30 @@
     position: absolute;
     top: 0;
     left: 39%;
+    @include breakpoint(991) {
+      width: 33.33%;
+      padding: 10px;
+      left: 34%;
+    }
+    @include breakpoint(767) {
+      width: 50%;
+      padding: 5px;
+      left: 25%;
+    }
+    @include breakpoint(480) {
+      width: 70%;
+      padding: 0;
+      left: 14%;
+      margin: 110px auto;
+    }
     .label-text {
       font-size: 36px;
+      @include breakpoint(480) {
+        font-size: 20px;
+      }
     }
     .input-text {
-      width: 100%;
-      padding: 12px 20px;
+      padding: 10px 30px;
       margin: 8px 0;
       display: inline-block;
       border: 1px solid #ccc;
@@ -52,6 +80,9 @@
       box-sizing: border-box;
       text-align: center;
       font-size: 14px;
+      @include breakpoint(767) {
+        width: 90%;
+      }
     }
     .btn-submit {
       width: 200px;
@@ -62,19 +93,29 @@
       border-radius: 4px;
       font-size: 15px;
       font-weight: bold;
+      @include breakpoint(480) {
+        margin: 5px;
+      }
     }
     .input-area {
-      padding: 12px 20px;
+      padding: 10px 42px;
       display: inline-block;
       border: 1px solid #ccc;
       border-radius: 4px;
       box-sizing: border-box;
-      width: 100%;
       height: 150px;
+      width: 84%;
       resize: none;
       text-align: center;
       font-family: Arial;
       font-size: 14px;
+      @include breakpoint(991) {
+        height: 100px;
+        margin-top: 10px;
+      }
+      @include breakpoint(767) {
+        width: 90%;
+      }
     }
   }
 }

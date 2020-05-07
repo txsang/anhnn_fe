@@ -63,3 +63,17 @@ a {
 input[type=text], textarea {
   -webkit-appearance: none;
 }
+
+.center {
+  width: 1170px;
+  margin: 0 auto;
+  @include breakpoint(1199) {
+    width: 990px;
+  }
+  @include breakpoint(991) {
+    width: 750px;
+  }
+  @include breakpoint(767) {
+    width: 100%;
+  }
+}

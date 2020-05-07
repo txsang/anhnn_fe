@@ -19,14 +19,37 @@
   padding-bottom: 10px;
   font-size: 18px;
   font-family: Lato;
+  @include breakpoint(1199) {
+    width: 60%;
+    font-size: 13px;
+  }
+  @include breakpoint(767) {
+    margin: 40% 0 0;
+  }
+  @include breakpoint(480) {
+    margin-top: 25%;
+    font-size: 10px;
+  }
   .text-slide-h2 {
     font-size: 48px;
+    @include breakpoint(1199) {
+      font-size: 35px;
+    }
+    @include breakpoint(767) {
+      font-size: 24px;
+    }
   }
 }
 .link-icon {
   overflow: auto;
   width: 630px;
   float: right;
+  @include breakpoint(1199) {
+    width: 60%;
+  }
+  @include breakpoint(767) {
+    font-size: 10px;
+  }
   .link-icon-p {
     font-size: 18px;
     font-family: Lato;
@@ -34,6 +57,14 @@
     color: #4bcaff;
     line-height: 48px;
     padding-right: 20px;
+    @include breakpoint(767) {
+      font-size: 16px;
+      padding-right: 5px;
+      line-height: 36px;
+    }
+    @include breakpoint(350) {
+      font-size: 12px;
+    }
   }
   .link-icon-a {
     float: left;
@@ -42,10 +73,21 @@
     border: 1px solid #4bcaff;
     border-radius: 50%;
     margin-bottom: 115px;
+    @include breakpoint(767) {
+      margin-left: 10px;
+      margin-bottom: 20px;
+      padding: 8px;
+    }
+    .img-icon {
+      @include breakpoint(480) {
+        width: 100%;
+      }
+    }
     &:hover,
     &:active {
       background-color: #4bcaff;
     }
+
   }
 }
 .link {
@@ -55,6 +97,12 @@
   font-size: 15px;
   font-weight: bold;
   font-family: Lato;
+  @include breakpoint (1199) {
+    width: 60%;
+  }
+  @include breakpoint (480) {
+
+  }
   .link-a {
     float: left;
     border: 1px solid #ffffff;
@@ -65,6 +113,19 @@
     &:hover ,
     &:active {
       background-color: #4bcaff;
+    }
+    @include breakpoint(1199) {
+      margin-right: 10px;
+    }
+    @include breakpoint(767) {
+    font-size: 10px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    }
+    @include breakpoint(350) {
+      font-size: 8px;
+      padding: 6px 12px;
     }
   }
 }
